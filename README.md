@@ -66,6 +66,18 @@ spring.datasource.password=your_password
 
 spring.jpa.hibernate.ddl-auto=update
 ```
+```
+## 🔄 Application Flow
+
+The request flow in the application follows:
+
+User Request → Controller → Service → Repository → Database → Response → View (Thymeleaf)
+
+This ensures clear separation of concerns and maintainability.
+
+
+```
+
 
 ---
 
